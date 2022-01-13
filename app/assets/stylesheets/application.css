@@ -22,6 +22,10 @@ body {
   margin: 33px;
 }
 
+.notice{
+  color:green;
+}
+
 p, td {
   margin: 33px;
 }
