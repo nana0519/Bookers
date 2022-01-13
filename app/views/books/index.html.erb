@@ -1,5 +1,5 @@
 <h1>Books</h1>
- 
+
 <table>
   <thead>
     <tr>
@@ -21,7 +21,7 @@
   </tbody>
 </table>
 
-<h2 class="new_book_heading">NEW book</h2>
+<h2 class="new_book_heading">New book</h2>
 <%= form_with model: @book, url: '/books', method: :post, local:true do |f| %>
    <div class="field">
      <%= f.label :title, 'Title' %>

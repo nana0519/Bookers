@@ -13,13 +13,6 @@
  *= require_tree .
  *= require_self
  */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   background-color: #fff;
   color: #333;
@@ -45,10 +38,6 @@ td {
 
 a{
   color:#000;
-}
-
-.new_book_heading{
-  margin-bottom: 10px;
 }
 
 label {
