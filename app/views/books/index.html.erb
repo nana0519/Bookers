@@ -22,7 +22,16 @@
   </tbody>
 </table>
 
-<h2 class="new_book_heading">New book</h2>
+<h2>New book</h2>
+<% if @book.errors.any? %>
+  <%= @book.errors.count %>件のエラーが発生しました
+  <ul>
+    <% @book.errors.full_messages.each do |message| %>
+      <li><%= message %></li>
+      <% end %>
+  </ul>
+<% end %>
+
 <%= form_with model: @book, url: '/books', method: :post, local:true do |f| %>
    <div class="field">
      <%= f.label :title, 'Title' %>
