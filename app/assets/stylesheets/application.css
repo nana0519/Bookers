@@ -43,6 +43,10 @@ td {
   padding-right: 5px;
 }
 
+a{
+  color:#000;
+}
+
 .new_book_heading{
   margin-bottom: 10px;
 }
